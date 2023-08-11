@@ -43,8 +43,8 @@ function sendEmail() {
     Email.send({
 
         Host: "smtp.elasticemail.com",
-        Username: "saurav223019@gmail.com",
-        Password: "8B845C4B196C65E67097782F024845D40D6B",
+        Username: "saurav@gmail.com",
+        Password: "***********************",
         To: emailId,
         From: "saurav223019@gmail.com",
         Subject: "Annual CO2 Emission Report",
