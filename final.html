@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+
+<html>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<title>Welcome to Home Page</title>
+
+<body class="bd2">
+    <div class="dv1" style="position: relative;right: 15%;">
+        <h4> Your Total Carbon Emission Annually is </h4>
+        <h1 id="result"></h1>
+        <h3>Tons CO₂e</h3>
+    </div>
+
+    <div class="dv1"
+        style="position: absolute;right: 20%; top: 0%; text-align: right;border-left: 1px solid black;padding-left: 60px;">
+        <h4>Average Carbon Emission per person in India </h4>
+        <h3>2 Tons CO₂e</h3>
+    </div>
+
+    <div class="dv1"
+        style="position: absolute;right: 20%; top: 15%; text-align: right;border-left: 1px solid black;padding-left: 55px;">
+        <h4>Average Carbon Emission per person Globally </h4>
+        <h3>4.7 Tons CO₂e</h3>
+    </div>
+
+    <div class="dv1"
+        style="position: absolute;right: 20%; top: 30%; text-align: right; border-left: 1px solid black;padding-left: 64px;">
+        <h4>Average Carbon Emission per person in USA</h4>
+        <h3>16 Tons CO₂e</h3>
+    </div>
+
+    <div class="dv1" style="position: relative;right: 15%;">
+        <h4> To offset this carbon emission </h4>
+        <h3>You need to plant</h3>
+        <h1 id="trees"> Trees</h1>
+    </div>
+
+    <br><br><br>
+
+    <div class="dv1">
+        <div>
+            <h3>Your Details</h3>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Name"><br><br>
+        </div>
+
+        <div>
+            <label for="mail">Email Address</label>
+            <input type="text" id="mail" placeholder="Email Address"><br><br>
+        </div>
+
+        <div style="display: flex;">
+            <button onclick="sendEmail()" style="appearance: inherit; left: 46%;position: absolute;margin: 10px;">Get
+                Emission Report</button>
+        </div>
+    </div>
+
+    <script src="finalScript.js"></script>
+
+</body>
+
+</html>

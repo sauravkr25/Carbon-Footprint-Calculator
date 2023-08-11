@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" href="styles.css">
+
+<head>
+</head>
+
+<body class="bd1">
+
+    <h1><u>Carbon Emission Calculator</u></h1>
+
+    <h3><u>Air Travel</u></h3>
+
+    <label for="inpNoOfFlts">How much do you travel in a year (number of flights)?</label><br><br>
+    <input type="text" id="inpNoOfFlts" placeholder="Number Of Flights in a year"><br><br>
+
+    <h3><u>Food</u></h3>
+    <label for="inpDietPref">What are your Diet Preferences?</label><br><br>
+    <select id="inpDietPref">
+        <option value="vegOnly">Veg only</option>
+        <option value="nonVegOnly">Non-Veg only</option>
+        <option value="vegan">Vegan</option>
+        <option value="vegNonVeg">Veg Non-Veg both</option>
+    </select><br><br>
+
+    <h3><u>Car</u></h3>
+    <label for="inpNoOfKms">How much do you travel by car annually (number of kms)?</label><br><br>
+    <input type="text" id="inpNoOfKms" placeholder="Kms driven annualy"><br><br>
+
+    <label for="inpFuelTyp">What kind of fuel does your car use?</label><br><br>
+    <select id="inpFuelTyp">
+        <option value="electric">Electric</option>
+        <option value="naturalGas">Natural Gas</option>
+        <option value="gdp">Gasoline, Diesel or Petrol</option>
+    </select><br><br>
+
+    <h3><u>Shopping</u></h3>
+
+    <label for="inpShopPref">How much do you shop?</label><br><br>
+    <select id="inpShopPref">
+        <option value="rarely">Rarely</option>
+        <option value="average">Average</option>
+        <option value="shopper">Shopper</option>
+        <option value="luxuryShopper">Luxury Shopper</option>
+    </select><br><br>
+
+    <h3><u>House</u></h3>
+
+    <label for="inpHouseSize">How big is your house?</label><br><br>
+    <select id="inpHouseSize">
+        <option value="1b">1-bed</option>
+        <option value="2b">2-bed</option>
+        <option value="3b">3-bed</option>
+        <option value="4b">More than 3-bed</option>
+    </select><br><br>
+
+    <label for="inpNoOfPp1">How many people live in your house?</label><br><br>
+    <input type="text" id="inpNoOfPp1" placeholder="Number Of People in your house"><br><br>
+
+    <label>Do you have Renewable energy at home?</label><br><br>
+    <input type="radio" id="inpRenEnergyYes" name="renEnergy" value="Yes">
+    <label for="inpRenEnergyYes">Yes</label><br>
+    <input type="radio" id="inpRenEnergyNo" name="renEnergy" value="No">
+    <label for="inpRenEnergyNo">No</label><br>
+
+
+    <div class="dv1">
+        <button class="btn" onclick="calculateEmission()">Submit!</button> 
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

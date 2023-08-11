@@ -1,0 +1,34 @@
+.btn {
+padding: 15px 25px;
+color: #000000; 
+border: 1px #1864ab solid; 
+height: 20%;
+width: 30%; 
+margin: 20px;
+}
+
+.dv1 {
+text-align: center;
+}
+
+.bd1 {
+background-image: url('secondbg.jpg');
+background-repeat: no-repeat; 
+background-attachment: fixed; 
+background-size: cover; 
+color: white; 
+appearance: inherit; 
+left: 35%;
+position: absolute; 
+}
+
+
+
+.bd2 {
+background-image: url('thirdbg.jpg'); 
+background-repeat: no-repeat; 
+background-attachment: fixed; 
+background-size: cover;
+top: 10%; 
+position: relative;
+}
