@@ -54,6 +54,7 @@ function calculateEmission() {
     }
 
     window.localStorage.setItem("result", (result * 0.00110231).toFixed(2));
-    window.location.href = window.location.href.replace('index', 'final');
+    // window.location.href = window.location.href.replace('index', 'final');
+    window.location.href = "final.html";
 }
 
